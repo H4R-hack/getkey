@@ -1,15 +1,15 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/ionlyusegithubformcmods/1-Line-Scripts/main/Mobile%20Friendly%20Orion')))() --This Will Load The Script Code
 local Player = game.Players.LocalPlayer --This Will Reveal The Player Name
   local Window = OrionLib:MakeWindow({
-		Name = "EXAMPLE HOW TO MAKE A KEY SYSTEM FOR MOBILE",
+		Name = "welcome to LuaDev",
 		HidePremium = false,
 		SaveConfig = true,
-		ConfigFolder = "OrionTest",
+		ConfigFolder = "LuaDev",
         IntroText = "Loading Script..."       
 }) --This Will Load The Script Hub
 
 function MakeScriptHub()
-         loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/GhostHub'))() --Put The Script That Will Load If The Key Is Correct Here
+         loadstring(game:HttpGet('Script.lua'))() --Put The Script That Will Load If The Key Is Correct Here
 end
 
 OrionLib:MakeNotification({
@@ -19,7 +19,7 @@ OrionLib:MakeNotification({
 	Time = 5
 }) --Notification
 
-getgenv().Key = "grw076eiwy7" --Put The Correct Key Here
+getgenv().Key = "1!STGSAKS^!2i??ĂTNQOTJQZXIQTQQHB<SIWQJOY$QGHNQGRDEWGTSFQE_+!_)(*&^%$@#SHSRALdhafKGWRSJAGSRQT^SFGakYSRAGSKHAYWRSGSJAKSWTa[sakl;kj'qư;lokiuaqwshsdbxgtwgdhxytfghswysgsjdtU@%^&*(*&^%$@%^&@)5342726" --Put The Correct Key Here
 getgenv().KeyInput = "string" --Require For The Key To Work
 
 local Tab = Window:MakeTab({
@@ -79,12 +79,12 @@ Tab:AddButton({
 Tab:AddButton({
 	Name = "Copy Key",
 	Callback = function()
-      		setclipboard("Put The Link Here") --This Will Copy The Link Of The Key
+      		setclipboard("https://bitly.li/ovwp") 
   	end    
 }) 
     
 OrionLib:Init() --Require If The Script Is Done
 
 
-Video: https://www.youtube.com/watch?v=GHg7QX2mTCc
+
             
